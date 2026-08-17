@@ -2,7 +2,7 @@
 
 <h3><code>sakthi@github ~ $ ./contributions.sh</code></h3>
 
-<img src="https://raw.githubusercontent.com/Sakthivel-P-cse/Sakthivel-P-cse/main/contrib-heatmap.svg?sanitize=true" width="820" alt="Sakthivel's animated GitHub contribution graph" />
+<img src="https://sakthivel-p-cse.github.io/Sakthivel-P-cse/contrib-heatmap.svg" width="820" alt="Sakthivel's animated GitHub contribution graph" />
 
 <br><br>
 
@@ -10,8 +10,8 @@
 
 <table>
   <tr>
-    <td valign="top"><img src="https://raw.githubusercontent.com/Sakthivel-P-cse/Sakthivel-P-cse/main/avi-ascii.svg?sanitize=true" width="350" alt="Sakthivel P as ASCII art" /></td>
-    <td valign="top"><img src="https://raw.githubusercontent.com/Sakthivel-P-cse/Sakthivel-P-cse/main/info-card.svg?sanitize=true" width="450" alt="Sakthivel's terminal profile card" /></td>
+    <td valign="top"><img src="https://sakthivel-p-cse.github.io/Sakthivel-P-cse/avi-ascii.svg" width="350" alt="Sakthivel P as ASCII art" /></td>
+    <td valign="top"><img src="https://sakthivel-p-cse.github.io/Sakthivel-P-cse/info-card.svg" width="450" alt="Sakthivel's terminal profile card" /></td>
   </tr>
 </table>
 
