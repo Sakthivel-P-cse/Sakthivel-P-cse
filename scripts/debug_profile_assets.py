@@ -92,6 +92,9 @@ if __name__ == "__main__":
         )
         # endregion
     # region agent log
+    probe("pages root", f"{PAGES_BASE}/", "H7")
+    # endregion
+    # region agent log
     probe(
         "contributions endpoint",
         "https://github.com/users/Sakthivel-P-cse/contributions",
