@@ -1,15 +1,15 @@
 {
   "username": "Sakthivel-P-cse",
-  "generated_at": "2026-08-22T06:57:49.451035+00:00",
+  "generated_at": "2026-08-23T06:59:07.668024+00:00",
   "range": {
-    "start": "2025-08-17",
-    "end": "2026-08-22"
+    "start": "2025-08-24",
+    "end": "2026-08-23"
   },
-  "total_contributions": 97,
-  "active_days": 37,
-  "avg_per_active_day": 2.6,
-  "current_streak": 7,
-  "longest_streak": 7,
+  "total_contributions": 83,
+  "active_days": 34,
+  "avg_per_active_day": 2.4,
+  "current_streak": 8,
+  "longest_streak": 8,
   "best_day": {
     "date": "2025-12-12",
     "count": 12
@@ -17,7 +17,7 @@
   "monthly": [
     {
       "month": "2025-08",
-      "total": 15
+      "total": 0
     },
     {
       "month": "2025-09",
@@ -65,38 +65,10 @@
     },
     {
       "month": "2026-08",
-      "total": 28
+      "total": 29
     }
   ],
   "days": [
-    {
-      "date": "2025-08-17",
-      "count": 0
-    },
-    {
-      "date": "2025-08-18",
-      "count": 9
-    },
-    {
-      "date": "2025-08-19",
-      "count": 4
-    },
-    {
-      "date": "2025-08-20",
-      "count": 0
-    },
-    {
-      "date": "2025-08-21",
-      "count": 1
-    },
-    {
-      "date": "2025-08-22",
-      "count": 1
-    },
-    {
-      "date": "2025-08-23",
-      "count": 0
-    },
     {
       "date": "2025-08-24",
       "count": 0
@@ -1551,6 +1523,10 @@
     },
     {
       "date": "2026-08-22",
+      "count": 1
+    },
+    {
+      "date": "2026-08-23",
       "count": 0
     }
   ]
