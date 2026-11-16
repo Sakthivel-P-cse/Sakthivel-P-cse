@@ -20,11 +20,11 @@
 
 | Project | What it does |
 | --- | --- |
-| [Viper](https://github.com/Sakthivel-P-cse/Viper) | Raft-backed distributed key-value store with linearizable reads and WAL recovery |
-| [CRDT rate limiter](https://github.com/Sakthivel-P-cse/CRDT-based-decentralized-rate-limiting) | Partition-tolerant Go rate limiter using G-Counters, delta gossip, SWIM, and gRPC |
-| [TrustChain](https://github.com/Sakthivel-P-cse/TrustChain-Zero-Trust-Authentication-System-with-Continuous-Trust-Scoring) | Continuous zero-trust authentication with RBAC, ABAC, mTLS, replay protection, and trust scoring |
-| CAUSA | Observability-driven Kubernetes root-cause analysis with metrics, logs, traces, and influence graphs |
 | AUTOBUILD | Durable agentic software engineering workflows with Temporal, PostgreSQL, LangGraph, GitHub, and gVisor |
+| CAUSA | Observability-driven Kubernetes root-cause analysis with metrics, logs, traces, and influence graphs |
+| [TrustChain](https://github.com/Sakthivel-P-cse/TrustChain-Zero-Trust-Authentication-System-with-Continuous-Trust-Scoring) | Continuous zero-trust authentication with RBAC, ABAC, mTLS, replay protection, and trust scoring |
+| [CRDT rate limiter](https://github.com/Sakthivel-P-cse/CRDT-based-decentralized-rate-limiting) | Partition-tolerant Go rate limiter using G-Counters, delta gossip, SWIM, and gRPC |
+| [Viper](https://github.com/Sakthivel-P-cse/Viper) | Raft-backed distributed key-value store with linearizable reads and WAL recovery |
 
 ## `$ cat focus.txt`
 
