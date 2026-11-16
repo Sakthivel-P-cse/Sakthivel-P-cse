@@ -19,9 +19,38 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           username: Sakthivel-P-cse
-          cards: repositories,contributions
-          layout: split
-          output-dir: assets/profile-cards
-          themes: light,dark
-          palette: green
-          commit: true
+          cards: contributions,languages
+          layout: combined
+          output-dir: assets
+          themes: dark
+          palette: blue
+          commit: false
+      - name: Recolor dark cards and push
+        run: |
+          sed -i \
+            -e 's/#0d1117/#0b1a1f/g' \
+            -e 's/#151b23/#10262c/g' \
+            -e 's/#3d444d/#1e4a52/g' \
+            -e 's/#262c34/#1e4a52/g' \
+            -e 's/#21262d/#10262c/g' \
+            -e 's/#f0f6fc/#d6f5f2/g' \
+            -e 's/#9198a1/#7fb5b5/g' \
+            -e 's/#4493f8/#4fd1c5/g' \
+            -e 's/#161b22/#12333a/g' \
+            -e 's/#22385f/#16606a/g' \
+            -e 's/#205a9f/#1f8f9a/g' \
+            -e 's/#0f8ef1/#2f6bff/g' \
+            -e 's/#70b7ff/#6fb3ff/g' \
+            -e 's/#3fb950/#4fd1c5/g' \
+            -e 's/#a371f7/#4fd1c5/g' \
+            -e 's/#db6d28/#4fd1c5/g' \
+            -e 's/#6e7681/#4fd1c5/g' \
+            -e 's/#f85149/#e0463c/g' \
+            assets/cards.dark.svg
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add assets/cards.dark.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(profile): refresh dark cards [skip ci]"
+            git push
+          fi
