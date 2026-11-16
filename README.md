@@ -29,9 +29,9 @@
 ## `$ cat focus.txt`
 
 ```text
+AI infrastructure      :: LangGraph · RAG · Temporal · MCP
 distributed systems   :: Raft · CRDTs · Gossip · SWIM · gRPC
 backend platforms      :: Go · Python · TypeScript · Java · SQL
-agentic infrastructure :: LangGraph · RAG · Temporal · MCP
 observability          :: Prometheus · Loki · Tempo · Kubernetes
 storage                :: PostgreSQL · Redis · Qdrant · FAISS
 ```
