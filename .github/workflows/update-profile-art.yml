@@ -11,19 +11,17 @@ permissions:
   contents: write
 
 jobs:
-  heatmap:
+  profile-cards:
     runs-on: ubuntu-latest
-    env:
-      GH_PROFILE_USER: Sakthivel-P-cse
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: ./.github/actions/profile-cards
         with:
-          python-version: "3.13"
-      - run: python -m pip install -r scripts/requirements.txt
-      - run: python scripts/fetch_contributions.py
-      - run: python scripts/render_heatmap_svg.py
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: Sakthivel-P-cse
+          cards: repositories,contributions
+          layout: split
+          output-dir: assets/profile-cards
+          themes: light,dark
+          palette: green
+          commit: true

@@ -1,0 +1,89 @@
+name: 'Profile Cards'
+description: 'Render GitHub profile README cards as SVG: contribution history, streaks, activity rhythm, language treemap.'
+author: 'Seiji Kohara (https://github.com/seijikohara)'
+branding:
+  icon: 'bar-chart-2'
+  color: 'blue'
+inputs:
+  github-token:
+    description: 'Token for the GitHub GraphQL API and, when committing, for pushing generated files.'
+    required: true
+  username:
+    description: 'GitHub login to render. Defaults to the repository owner (GITHUB_REPOSITORY_OWNER).'
+    required: false
+    default: ''
+  cards:
+    description: >-
+      Cards to render (comma/space/newline separated). With `layout: combined`,
+      this order is the order the cards stack in.
+    required: false
+    default: 'overview,momentum,contributions,lifetime,composition,rhythm,cadence,repositories,portfolio,languages'
+  layout:
+    description: >-
+      "split" writes one SVG per card and theme (<card>.<theme>.svg).
+      "combined" stacks every card into one SVG per theme (cards.<theme>.svg),
+      separated by hairlines, with the fonts embedded once.
+    required: false
+    default: 'split'
+  output-dir:
+    description: 'Directory to write card SVGs into.'
+    required: false
+    default: 'assets'
+  themes:
+    description: 'Themes to render (comma separated): light, dark.'
+    required: false
+    default: 'light,dark'
+  palette:
+    description: >-
+      Hue for every activity mark and the card accent: "green" (GitHub's own
+      contribution colors), "blue", "purple", or "orange". Each palette keeps
+      green's lightness steps, so contrast is the same in all four.
+    required: false
+    default: 'green'
+  font:
+    description: 'Google Fonts sans-serif family. Roboto and Roboto Mono are bundled; other families are fetched at runtime.'
+    required: false
+    default: 'Roboto'
+  mono-font:
+    description: 'Google Fonts monospace family.'
+    required: false
+    default: 'Roboto Mono'
+  language-limit:
+    description: 'Languages the languages card lists before the rest fold into "Other". The card grows one row per language.'
+    required: false
+    default: '8'
+  legend:
+    description: >-
+      How cards label the magnitude ramp: "ramp" keeps the calendar's
+      Less…More key, "scale" prints the value band each step stands for
+      (0, 1-7, 8-19, …). Affects contributions, lifetime, and cadence.
+    required: false
+    default: 'ramp'
+  commit-sweep-limit:
+    description: >-
+      Repositories the cadence card's commit sweep visits, most recently pushed first.
+      The sweep is the only part of a run whose API cost grows with repository count;
+      0 visits every repository that could hold a commit in the trailing year, and
+      dropping "cadence" from `cards` skips the sweep entirely.
+    required: false
+    default: '0'
+  badges:
+    description: 'Newline-separated brand names to render as badge pills (icon via simple-icons when available, else text-only). Written to <output-dir>/badges/.'
+    required: false
+    default: ''
+  commit:
+    description: 'Commit changed files back to the repository.'
+    required: false
+    default: 'true'
+  commit-message:
+    description: 'Commit subject used when commit is true.'
+    required: false
+    default: 'chore(profile): refresh generated cards [skip ci]'
+outputs:
+  changed:
+    description: 'Whether any generated file changed ("true"/"false").'
+  files:
+    description: 'JSON array of written file paths.'
+runs:
+  using: 'node24'
+  main: 'dist/index.js'

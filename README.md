@@ -1,23 +1,6 @@
 <div align="center">
 
-<h3><code>sakthi@github ~ $ ./contributions.sh</code></h3>
-
-<img src="https://sakthivel-p-cse.github.io/Sakthivel-P-cse/contrib-heatmap.svg" width="820" alt="Sakthivel's animated GitHub contribution graph" />
-
-<br><br>
-
-<h3><code>sakthi@github ~ $ whoami</code></h3>
-
-<table>
-  <tr>
-    <td valign="top"><img src="https://sakthivel-p-cse.github.io/Sakthivel-P-cse/avi-ascii.svg" width="350" alt="Sakthivel P as ASCII art" /></td>
-    <td valign="top"><img src="https://sakthivel-p-cse.github.io/Sakthivel-P-cse/info-card.svg" width="450" alt="Sakthivel's terminal profile card" /></td>
-  </tr>
-</table>
-
-<br>
-
-<h3><code>sakthi@github ~ $ ./links.sh</code></h3>
+<img src="./assets/holographic-name-card.svg" width="100%" alt="Holographic profile card for Sakthivel P, distributed systems and backend engineer" />
 
 <p><b>Distributed Systems · Backend Engineering · AI Infrastructure</b></p>
 
@@ -26,6 +9,22 @@
 <a href="mailto:prsakthivel51@gmail.com">Email</a>
 
 </div>
+
+## `$ repositories` — featured projects
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-cards/repositories.dark.svg" />
+  <img src="./assets/profile-cards/repositories.light.svg" width="100%" alt="Featured repository ranking by commits, with languages, stars, and issues" />
+</picture>
+
+<sub>Repository rankings reflect public repositories by commits over the trailing year.</sub>
+
+## `$ contributions` — activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-cards/contributions.dark.svg" />
+  <img src="./assets/profile-cards/contributions.light.svg" width="100%" alt="Contribution activity and streaks" />
+</picture>
 
 ## `$ cat projects.txt`
 
@@ -40,11 +39,11 @@
 ## `$ cat focus.txt`
 
 ```text
-distributed systems  ::  Raft · CRDTs · Gossip · SWIM · gRPC
-backend platforms     ::  Go · Python · TypeScript · Java · SQL
-agentic infrastructure::  LangGraph · RAG · Temporal · MCP
-observability         ::  Prometheus · Loki · Tempo · Kubernetes
-storage               ::  PostgreSQL · Redis · Qdrant · FAISS
+distributed systems   :: Raft · CRDTs · Gossip · SWIM · gRPC
+backend platforms      :: Go · Python · TypeScript · Java · SQL
+agentic infrastructure :: LangGraph · RAG · Temporal · MCP
+observability          :: Prometheus · Loki · Tempo · Kubernetes
+storage                :: PostgreSQL · Redis · Qdrant · FAISS
 ```
 
 ## `$ cat experience.txt`
