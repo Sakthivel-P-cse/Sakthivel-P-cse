@@ -53,3 +53,5 @@ storage                :: PostgreSQL · Redis · Qdrant · FAISS
 <sub>Built with Python, SVG, GitHub Actions, and a little terminal nostalgia.</sub>
 
 </div>
+
+© 2026 Sakthi. Banner artwork is not licensed for reuse.

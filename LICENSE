@@ -1,0 +1,9 @@
+Original visual assets
+
+This license applies to original visual assets in this repository, including
+assets/banner.gif and the card images.
+
+All rights reserved. Do not copy, redistribute or reuse without written permission.
+
+This license does not apply to code. The MIT license for the vendored profile
+cards action is scoped separately in .github/actions/profile-cards/LICENSE.

@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 source-photo.jpg
 source-prepped.png
+# Keep source video and unwatermarked banner variants out of the repo.
+*.mp4
+assets/*unwatermarked*.gif
