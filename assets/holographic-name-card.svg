@@ -98,11 +98,7 @@
   <!-- TOP STRIP — name + HP -->
   <g font-family="'Space Grotesk', 'Neue Haas Grotesk', system-ui, sans-serif">
     <text x="112" y="94" font-size="40" font-weight="800" fill="#fef3c7" letter-spacing="-1">SAKTHIVEL P</text>
-    <text x="112" y="118" font-family="'JetBrains Mono', monospace" font-size="11" fill="#fcd34d" letter-spacing="5">DISTRIBUTED SYSTEMS · BACKEND ENGINEER</text>
-  </g>
-  <g transform="translate(1012,84)" font-family="'JetBrains Mono', monospace" text-anchor="end">
-    <text x="0" y="0" font-size="11" fill="#fbbf24" letter-spacing="3">CGPA</text>
-    <text x="0" y="32" font-size="36" font-weight="700" fill="#fef3c7">8.1</text>
+    <text x="112" y="118" font-family="'JetBrains Mono', monospace" font-size="11" fill="#fcd34d" letter-spacing="5">AI INFRASTRUCTURE · DISTRIBUTED SYSTEMS · BACKEND ENGINEER</text>
   </g>
 
   <!-- DIVIDER -->
@@ -141,8 +137,7 @@
   <!-- BOTTOM FOOTER STRIP -->
   <rect x="112" y="341" width="976" height="0.8" fill="url(#hf-foil)" opacity="0.7"/>
   <g font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="3">
-    <text x="112" y="362" fill="#94a3b8">CHENNAI INSTITUTE OF TECHNOLOGY</text>
-    <text x="1088" y="362" text-anchor="end" fill="#fcd34d">DISTRIBUTED SYSTEMS · AI INFRASTRUCTURE</text>
+    <text x="1088" y="362" text-anchor="end" fill="#fcd34d">AI INFRASTRUCTURE · DISTRIBUTED SYSTEMS</text>
   </g>
 
   <!-- Edition stamp -->
