@@ -4,7 +4,7 @@ import html
 
 
 WIDTH = 900
-HEIGHT = 1010
+HEIGHT = 710
 PAD = 42
 FRAME = "#30363d"
 MUTED = "#8b949e"
@@ -66,12 +66,7 @@ def build(output, static):
         parts.extend(group)
 
     parts.extend([
-        '<line x1="42" y1="735" x2="858" y2="735" stroke="#30363d"/>',
-        f'<text x="{PAD}" y="790" fill="{MUTED}" font-size="14">highlighted builds</text>',
-        f'<text x="{PAD}" y="830" fill="{TEXT}" font-size="17">Viper · CAUSA · AUTOBUILD · TrustChain</text>',
-        f'<text x="{PAD}" y="885" fill="{MUTED}" font-size="14">links</text>',
-        f'<text x="{PAD}" y="925" fill="{CYAN}" font-size="16">sakthivel-portfolio-ecru.vercel.app</text>',
-        f'<text x="{PAD}" y="965" fill="{MUTED}" font-size="14">linkedin.com/in/sakthivel-p-00152a317</text>',
+        '<line x1="42" y1="675" x2="858" y2="675" stroke="#30363d"/>',
         "</svg>",
     ])
     with open(output, "w", encoding="utf-8") as handle:
