@@ -19,9 +19,9 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           username: Sakthivel-P-cse
-          cards: repositories,contributions
+          cards: contributions,languages
           layout: split
           output-dir: assets/profile-cards
           themes: light,dark
-          palette: green
+          palette: purple
           commit: true

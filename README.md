@@ -10,20 +10,18 @@
 
 </div>
 
-## `$ repositories` — featured projects
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-cards/repositories.dark.svg" />
-  <img src="./assets/profile-cards/repositories.light.svg" width="100%" alt="Featured repository ranking by commits, with languages, stars, and issues" />
-</picture>
-
-<sub>Repository rankings reflect public repositories by commits over the trailing year.</sub>
-
 ## `$ contributions` — activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-cards/contributions.dark.svg" />
   <img src="./assets/profile-cards/contributions.light.svg" width="100%" alt="Contribution activity and streaks" />
+</picture>
+
+## `$ languages` — code by bytes
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-cards/languages.dark.svg" />
+  <img src="./assets/profile-cards/languages.light.svg" width="100%" alt="Language treemap by bytes with a ranked list, across public source repositories" />
 </picture>
 
 ## `$ cat projects.txt`
