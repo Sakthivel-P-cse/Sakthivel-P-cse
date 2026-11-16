@@ -1,0 +1,39 @@
+{
+  "run": "2026-11-15-github-profile-inspiration",
+  "started": "2026-11-15",
+  "budget": 7.52,
+  "agents": [
+    {
+      "id": "/root",
+      "model": "current",
+      "allowance": 5.72
+    },
+    {
+      "id": "/root/stats_native",
+      "model": "Luna",
+      "allowance": 0.36
+    },
+    {
+      "id": "/root/project_first",
+      "model": "Luna",
+      "allowance": 0.36
+    },
+    {
+      "id": "/root/blueprint_3d",
+      "model": "Luna",
+      "allowance": 0.36
+    },
+    {
+      "id": "/root/holographic",
+      "model": "Luna",
+      "allowance": 0.36
+    },
+    {
+      "id": "/root/editorial",
+      "model": "Luna",
+      "allowance": 0.36
+    }
+  ],
+  "finished": "2026-11-15",
+  "est_total": 3.76
+}

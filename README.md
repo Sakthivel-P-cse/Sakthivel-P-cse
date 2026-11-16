@@ -2,7 +2,7 @@
 
 <img src="./assets/holographic-name-card.svg" width="100%" alt="Holographic profile card for Sakthivel P, distributed systems and backend engineer" />
 
-<p><b>Distributed Systems · Backend Engineering · AI Infrastructure</b></p>
+<p><b>AI Infrastructure · Distributed Systems · Backend Engineering</b></p>
 
 <a href="https://sakthivel-portfolio-ecru.vercel.app/">Portfolio</a> ·
 <a href="https://linkedin.com/in/sakthivel-p-00152a317/">LinkedIn</a> ·

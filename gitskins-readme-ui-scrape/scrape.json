@@ -1,0 +1,79 @@
+{
+  "source_url": "https://www.gitskins.com/readme-builder?username=Sakthivel-P-Cse&template=community-creative-dev-rt3x",
+  "capture_status": "captured from user-supplied Firefox rendered DOM (live-preview.html) and full-page screenshot (firefox-fullpage.png)",
+  "viewport_px": {
+    "width": 907,
+    "height": 4202,
+    "note": "full-page screenshot image dimensions; preview itself is a narrow right-column panel"
+  },
+  "page": {
+    "title": "Hey 👨‍💻 I’m Sakthivel P",
+    "sections": [
+      {
+        "heading": "📌 About Me",
+        "content": "💡 ✏️ A sentence about you and what you do."
+      },
+      {
+        "heading": "📊 GitHub Stats & Trophies",
+        "cards": [
+          "GitHub stats and streak",
+          "Top Languages",
+          "GitHub Trophies",
+          "Activity Graph"
+        ]
+      },
+      {
+        "heading": "🛠️ Languages & Tools",
+        "subsections": [
+          "Programming Languages",
+          "Frontend",
+          "Backend",
+          "Database",
+          "DevOps & Cloud",
+          "Tools"
+        ]
+      },
+      {
+        "heading": "🔗 Connect with Me",
+        "items": [
+          "LinkedIN",
+          "Gmail"
+        ]
+      }
+    ],
+    "chrome": {
+      "repository": "sakthivel-p-cse / README.md",
+      "tabs": [
+        "Preview",
+        "Code"
+      ],
+      "active_tab": "Preview",
+      "floating_control": "Feedback"
+    },
+    "visual_notes": {
+      "theme": "dark, near-black with green tint",
+      "content_width_px_approx": 324,
+      "side_margins_px_approx": 40,
+      "heading_color": "off-white",
+      "dividers": "thin muted gray",
+      "cards": "dark navy panels with blue, teal and purple accents",
+      "banner": "wide pixel-art illustration"
+    },
+    "preview_profile": "Anthony Fu (@antfu), sample profile; screenshot labels it “Sample preview” and says to personalize with GitHub username before exporting.",
+    "rest_of_builder": [
+      "Header navigation",
+      "Sample profile and stats",
+      "Template filters and cards",
+      "Template preview and export actions",
+      "Made with this template",
+      "More like this",
+      "How it works",
+      "Questions / FAQ"
+    ]
+  },
+  "limits": [
+    "This capture is of the sample profile Anthony Fu (@antfu), not the authenticated @sakthivel-p-cse profile.",
+    "live-preview.html contains the rendered preview DOM but not the page CSS rules or computed styles.",
+    "The full-page screenshot includes the surrounding builder UI and the complete visible README preview."
+  ]
+}

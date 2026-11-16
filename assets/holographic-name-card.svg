@@ -125,16 +125,16 @@
   <g transform="translate(492,156)" font-family="'Space Grotesk', system-ui, sans-serif">
     <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="10" fill="#fcd34d" letter-spacing="4">— ENGINEERING FOCUS</text>
     <g transform="translate(0,28)">
+      <text font-size="17" font-weight="600" fill="#fef3c7">✦ AI Infrastructure &amp; Observability</text>
+      <text x="0" y="20" font-size="11" fill="#cbd5e1" opacity="0.7">Temporal · Kubernetes · Prometheus · Loki · Tempo</text>
+    </g>
+    <g transform="translate(0,76)">
       <text font-size="17" font-weight="600" fill="#fef3c7">◆ Distributed Systems</text>
       <text x="0" y="20" font-size="11" fill="#cbd5e1" opacity="0.7">Raft · CRDTs · Gossip · gRPC</text>
     </g>
-    <g transform="translate(0,76)">
+    <g transform="translate(0,124)">
       <text font-size="17" font-weight="600" fill="#fef3c7">◈ Backend Engineering</text>
       <text x="0" y="20" font-size="11" fill="#cbd5e1" opacity="0.7">Go · Python · TypeScript · Java · SQL</text>
-    </g>
-    <g transform="translate(0,124)">
-      <text font-size="17" font-weight="600" fill="#fef3c7">✦ AI Infrastructure &amp; Observability</text>
-      <text x="0" y="20" font-size="11" fill="#cbd5e1" opacity="0.7">Temporal · Kubernetes · Prometheus · Loki · Tempo</text>
     </g>
   </g>
 

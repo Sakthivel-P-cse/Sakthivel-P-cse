@@ -1,0 +1,306 @@
+{
+  "source_file": "live-preview.html",
+  "captured_dom_root": {
+    "tag": "div",
+    "class": [
+      "_profilePreview_1e818_1573",
+      "_profilePreviewDark_1e818_1672"
+    ]
+  },
+  "preview_header": "antfu / README.md",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Hey I'm Anthony Fu"
+    },
+    {
+      "level": 2,
+      "text": "📌 About Me"
+    },
+    {
+      "level": 2,
+      "text": "📊 GitHub Stats & Trophies"
+    },
+    {
+      "level": 2,
+      "text": "🛠️ Languages & Tools"
+    },
+    {
+      "level": 2,
+      "text": "Programming Languages"
+    },
+    {
+      "level": 2,
+      "text": "Frontend"
+    },
+    {
+      "level": 2,
+      "text": "Backend"
+    },
+    {
+      "level": 2,
+      "text": "Database"
+    },
+    {
+      "level": 2,
+      "text": "DevOps & Cloud"
+    },
+    {
+      "level": 2,
+      "text": "Tools"
+    },
+    {
+      "level": 2,
+      "text": "🔗 Connect with Me"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "width": "24",
+      "src": "https://avatars.githubusercontent.com/u/11247099?u=5c092d3773a443e480a294f2b67aa39395982f46&v=4"
+    },
+    {
+      "alt": "",
+      "width": "30px",
+      "src": "https://raw.githubusercontent.com/SP-XD/SP-XD/refs/heads/main/images/Developer.gif"
+    },
+    {
+      "alt": "Banner",
+      "width": "100%",
+      "src": "https://i.pinimg.com/originals/42/b4/22/42b4229a9ec3145edaa895b2415dd720.gif"
+    },
+    {
+      "alt": "antfu's GitHub Stats",
+      "width": "49%",
+      "src": "https://www.gitskins.com/api/section/stats?username=antfu&theme=github-dark&mode=dark"
+    },
+    {
+      "alt": "antfu's GitHub Streak",
+      "width": "49%",
+      "src": "https://streak-stats.demolab.com/?user=antfu&theme=nightowl&hide_border=true&cache_seconds=86400"
+    },
+    {
+      "alt": "Top Languages",
+      "width": "",
+      "src": "https://www.gitskins.com/api/section/stack?username=antfu&theme=github-dark&mode=dark"
+    },
+    {
+      "alt": "Anthony Fu's GitHub Trophies",
+      "width": "",
+      "src": "https://www.gitskins.com/api/section/highlights?username=antfu&theme=github-dark&mode=dark"
+    },
+    {
+      "alt": "antfu's Activity Graph",
+      "width": "",
+      "src": "https://www.gitskins.com/api/section/heatmap?username=antfu&theme=github-dark&mode=dark"
+    },
+    {
+      "alt": "JavaScript",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+    },
+    {
+      "alt": "TypeScript",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+    },
+    {
+      "alt": "Python",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+    },
+    {
+      "alt": "Java",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+    },
+    {
+      "alt": "C++",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+    },
+    {
+      "alt": "PHP",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+    },
+    {
+      "alt": "React",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+    },
+    {
+      "alt": "Next.js",
+      "width": "48",
+      "src": "https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
+    },
+    {
+      "alt": "HTML5",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+    },
+    {
+      "alt": "CSS3",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+    },
+    {
+      "alt": "Tailwind CSS",
+      "width": "48",
+      "src": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+    },
+    {
+      "alt": "Bootstrap",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg"
+    },
+    {
+      "alt": "Node.js",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+    },
+    {
+      "alt": "Express.js",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg"
+    },
+    {
+      "alt": "MySQL",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+    },
+    {
+      "alt": "PostgreSQL",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"
+    },
+    {
+      "alt": "MongoDB",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
+    },
+    {
+      "alt": "Redis",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg"
+    },
+    {
+      "alt": "SQLite",
+      "width": "48",
+      "src": "https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg"
+    },
+    {
+      "alt": "Docker",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
+    },
+    {
+      "alt": "Kubernetes",
+      "width": "48",
+      "src": "https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg"
+    },
+    {
+      "alt": "AWS",
+      "width": "48",
+      "src": "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg"
+    },
+    {
+      "alt": "Google Cloud",
+      "width": "48",
+      "src": "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"
+    },
+    {
+      "alt": "Azure",
+      "width": "48",
+      "src": "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+    },
+    {
+      "alt": "Jenkins",
+      "width": "48",
+      "src": "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
+    },
+    {
+      "alt": "Git",
+      "width": "48",
+      "src": "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+    },
+    {
+      "alt": "VS Code",
+      "width": "48",
+      "src": "https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg"
+    },
+    {
+      "alt": "Figma",
+      "width": "48",
+      "src": "https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
+    },
+    {
+      "alt": "Postman",
+      "width": "48",
+      "src": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+    },
+    {
+      "alt": "Webpack",
+      "width": "48",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/webpack/webpack-original.svg"
+    },
+    {
+      "alt": "Vite",
+      "width": "48",
+      "src": "https://www.vectorlogo.zone/logos/vitejsdev/vitejsdev-icon.svg"
+    },
+    {
+      "alt": "LinkedIN",
+      "width": "40",
+      "src": "https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Color/LinkedIN.svg"
+    },
+    {
+      "alt": "Gmail",
+      "width": "40",
+      "src": "https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Color/Gmail.svg"
+    },
+    {
+      "alt": "github-snake",
+      "width": "",
+      "src": "https://www.gitskins.com/api/section/heatmap?username=antfu&theme=github-dark&mode=dark&style=snake"
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "https://www.linkedin.com/in/your-handle"
+    },
+    {
+      "text": "",
+      "href": "mailto:you@example.com"
+    },
+    {
+      "text": "creative dev",
+      "href": "https://www.gitskins.com/readme-generator?template=community-creative-dev-rt3x"
+    },
+    {
+      "text": "@himanshu201031",
+      "href": "https://www.gitskins.com/creators/himanshu201031"
+    },
+    {
+      "text": "GitSkins",
+      "href": "https://www.gitskins.com/readme-generator"
+    }
+  ],
+  "classes": [
+    "_profilePreviewAvatarMini_1e818_1604",
+    "_profilePreviewBar_1e818_1596",
+    "_profilePreviewDark_1e818_1672",
+    "_profilePreviewDots_1e818_1597",
+    "_profilePreviewPath_1e818_1605",
+    "_profilePreviewRepoMark_1e818_1602",
+    "_profilePreviewTabActive_1e818_1611",
+    "_profilePreviewTabs_1e818_1608",
+    "_profilePreview_1e818_1573",
+    "_readmeDocumentImageLoaded_1e818_1640",
+    "_readmeDocumentImage_1e818_1639",
+    "_readmeDocumentViewport_1e818_1590",
+    "_readmeDocument_1e818_1590"
+  ]
+}
