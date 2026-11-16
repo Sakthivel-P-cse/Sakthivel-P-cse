@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./assets/banner.gif" width="100%" alt="Profile banner" />
+
 <img src="./assets/holographic-name-card.svg" width="100%" alt="Holographic profile card for Sakthivel P, distributed systems and backend engineer" />
 
 <p><b>AI Infrastructure · Distributed Systems · Backend Engineering</b></p>
