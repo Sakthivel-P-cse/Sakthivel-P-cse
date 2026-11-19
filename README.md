@@ -14,6 +14,8 @@
 
 ## `$ activity` — contributions & languages
 
+Contribution activity combines the public calendars of Sakthivel-P-cse and Sakthivel-51; languages are from Sakthivel-P-cse.
+
 <img src="./assets/cards.dark.svg" width="100%" alt="Contribution activity, streaks, and language treemap" />
 
 ## `$ cat projects.txt`

@@ -59387,8 +59387,8 @@ function renderContributions(data, streaks, theme, legendStyle = DEFAULT_LEGEND)
 		icon: import_lucide.CalendarDays,
 		height,
 		title: "Contributions",
-		note: `past 12 months · streaks over all years · ${privacyNote(data.trailing.includesPrivate)}`,
-		description: `Contribution activity for ${data.login}: ${formatInt(data.trailing.total)} contributions in the past 12 months, current streak ${formatInt(streaks.current)} days, longest streak ${formatInt(streaks.longest)} days.`,
+		note: `2 accounts · past 12 months · streaks over all years · ${privacyNote(data.trailing.includesPrivate)}`,
+		description: `Combined contribution activity for ${data.login} and Sakthivel-51: ${formatInt(data.trailing.total)} contributions in the past 12 months, current streak ${formatInt(streaks.current)} days, longest streak ${formatInt(streaks.longest)} days.`,
 		extraCss: `.iso{opacity:0;animation:rise .5s cubic-bezier(.2,.7,.3,1) forwards}`
 	}, el("g", { class: "fade" }, tilesSvg), el("g", { class: "fade" }, groundShadow, slab), ...weekGroups, el("g", { class: "fade" }, ...monthTicks, ...weekdayTicks, callout), legend, caption);
 }
@@ -61766,6 +61766,14 @@ function mergeDailySeries(seriesPerYear) {
 	}
 	return [...byDate.values()].toSorted((a, b) => a.date.localeCompare(b.date));
 }
+function combineAccountDays(first, second) {
+	const byDate = new Map(first.map((day) => [day.date, { ...day }]));
+	for (const day of second) {
+		const previous = byDate.get(day.date);
+		byDate.set(day.date, previous ? { ...day, count: previous.count + day.count, level: Math.max(previous.level, day.level) } : { ...day });
+	}
+	return [...byDate.values()].toSorted((a, b) => a.date.localeCompare(b.date));
+}
 const DEFAULT_FETCH_OPTIONS = {
 	sweepCommits: true,
 	sweepLimit: 0
@@ -62163,6 +62171,11 @@ async function run() {
 		}),
 		generatedAt: (/* @__PURE__ */ new Date()).toISOString()
 	};
+	const other = await fetchProfile(inputs.token, "Sakthivel-51", { sweepCommits: false, sweepLimit: 0 });
+	data.trailing.days = combineAccountDays(data.trailing.days, other.trailing.days);
+	data.trailing.total = data.trailing.days.reduce((sum, day) => sum + day.count, 0);
+	data.trailing.includesPrivate ||= other.trailing.includesPrivate;
+	data.lifetimeDays = combineAccountDays(data.lifetimeDays, other.lifetimeDays);
 	const streaks = computeStreaks(data.lifetimeDays);
 	const fontFaceCss = await resolveFonts(inputs.font, inputs.monoFont);
 	const themes = inputs.themeIds.map((id) => themeFor(id, inputs.palette));
